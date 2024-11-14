@@ -22,6 +22,7 @@ input {
   width: 70%;
   padding: 10px;
   margin: 10px 0;
+  border-color: black;
 }
 
 button {
@@ -29,6 +30,11 @@ button {
   cursor: pointer;
   border-radius: 50%;
   background-color: rgb(230, 78, 154);
+}
+
+button:hover {
+  background-color: #2700b3;
+  color: blanchedalmond;
 }
 
 #weather-info {
